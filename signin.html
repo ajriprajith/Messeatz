@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link class="logo" rel="icon" href="logo.jpg" >
+        <script src="signin.js" type="module"></script>
+        <title>Signin </title> 
+        <link rel="stylesheet" href="signin.css">
+    </head>
+    <body>
+        <p>
+            <img src="images/top-view-long-italian-pasta-raw-light-background.jpg" class="background" >
+            <div class="form" >
+            <form class="myform">
+                Full name<br>
+            <input id="name" type="text" placeholder="Enter your name" required font-size="25px"><br>
+                <label for="username">
+                    Email
+                </label>
+                <br>
+                <input id="email" type="text" placeholder="Enter your Username" required="@"><br>
+                <label for="textpass">
+                    <h7 class="textpas">Password</h7>
+                </label><br>
+                <input id="password" type="password" placeholder="Enter Password" maxlength="20" required></br>
+                <a href="#" class="acc-exist" target="_blank">Already have an account ?</a>
+                <br>
+                <input id="submit" type="submit" value="Submit" onclick="validate()"></br>
+            </form>
+        </div>
+        </p>
+    </body>
+</html>
